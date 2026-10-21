@@ -1,0 +1,4 @@
+# Keep local datasets and generated exports out of Git.
+nfl-big-data-bowl-2027/*.csv
+exploratory_scripts/defense_rookie_scores.csv
+.DS_Store
