@@ -4,25 +4,25 @@ Selected figures for WR, TE, OT, OG and C. These are descriptive comparisons, no
 
 ### Available players
 
-![Offensive player coverage](figures/offensive-coverage.png)
+![Offensive player coverage](nfl-big-data-bowl-2027/figures/offensive-coverage.png)
 
 Combine coverage includes any tracked drill. NFL coverage counts players with regular-season records on plays not nullified by penalty; participation in a particular drill or role can be lower.
 
 ### Wide receivers: speed-out route
 
-![WR speed-out movement and speed](figures/wr-speed-out.png)
+![WR speed-out movement and speed](nfl-big-data-bowl-2027/figures/wr-speed-out.png)
 
 Paths reveal differences in where players turn and how broadly they bend. Speed curves show acceleration and subsequent speed loss. These differences need drill-phase review before linking them to NFL separation.
 
 ### Tight ends: in route
 
-![TE in-route movement and speed](figures/te-in-route.png)
+![TE in-route movement and speed](nfl-big-data-bowl-2027/figures/te-in-route.png)
 
 Compare route shape and speed profiles among tight ends performing the same named drill. Recording length and movement after the route can affect the visible differences.
 
 ### Offensive tackles: mirror drill
 
-![OT mirror movement and speed](figures/ot-mirror-drill.png)
+![OT mirror movement and speed](nfl-big-data-bowl-2027/figures/ot-mirror-drill.png)
 
 Repeated speed rises and falls show short movements and reversals. The finishing run may dominate the path and peak speed; it should be separated from the mirror portion before assessing protection-related traits. This chart uses the exact source label `PASS_PRO-MIRROR_DRILL`; the alternate underscore label remains separate.
 
