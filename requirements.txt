@@ -1,0 +1,7 @@
+nflreadpy
+polars
+pandas
+pyarrow
+matplotlib
+numpy
+statsmodels
