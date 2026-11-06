@@ -6,3 +6,6 @@ figures/model_b_coefficients.png
 figures/trait_by_round_heatmap.png
 exploratory_scripts/defense_rookie_scores.csv
 .DS_Store
+
+__pycache__/
+*.pyc
