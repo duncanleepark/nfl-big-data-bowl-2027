@@ -1,0 +1,12 @@
+Players with recorded drill: 66
+Recorded attempts: 126
+Attempt statuses: {'usable': 122, 'already_above_threshold': 4}
+Players with usable attempts: 65
+Usable attempts per player: {1: 9, 2: 55, 3: 1}
+Paired players: 56
+ICC(A,1): 0.075
+ICC bootstrap 95% interval: [-0.186, 0.409]
+Median absolute paired difference: 0.276
+Mean second minus first: 0.076
+Median gain: 2.068
+Paired gain SD (all first/second values): 0.533
