@@ -1,7 +1,8 @@
 """Audit initial movement in EDGE Combine pass-rush attempts; no NFL outcomes.
 
 Run from repository root: .venv/bin/python exploratory_scripts/edge_pass_rush_audit.py
-The roster-position proxy DE/OLB includes some non-edge linebackers. Speed and
+DE/OLB candidates with primarily interior observed NFL alignments are excluded.
+The retained cohort remains provisional for players without alignment evidence. Speed and
 coordinate units are retained as supplied pending confirmation of data dictionary.
 """
 from pathlib import Path
@@ -10,6 +11,7 @@ import pandas as pd
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
+from edge_pass_rush_cohort import select_edge_cohort
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / 'nfl-big-data-bowl-2027'
@@ -71,8 +73,8 @@ def icc_agreement(x, y):
 def main():
     DATA.mkdir(exist_ok=True); FIGURES.mkdir(exist_ok=True)
     p = pd.read_csv(SOURCE / 'players.csv', usecols=['nfl_id','display_name','nfl_position','draft_year'])
-    p = p[p.nfl_position.isin(['DE','OLB'])].copy()
     c = pd.read_csv(SOURCE / 'combine_tracking.csv')
+    p = select_edge_cohort(p, c)
     c = c[(c.drill_name == 'PASS_RUSH_DRILL') & (c.entity_type == 'PLAYER')].copy()
     c = c.drop(columns=['draft_year']).merge(p, on='nfl_id', validate='many_to_one')
     rows = []

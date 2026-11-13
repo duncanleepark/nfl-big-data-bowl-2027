@@ -2,7 +2,7 @@
 
 ## Scope and method
 
-This is a visual diagnostic of the **six largest absolute differences** among the 56 players with two usable attempts in the existing audit. The sample was selected because of disagreement; it is not representative of all players. The plots compare each player's first two usable attempts chronologically. The original onset and gain rules are unchanged.
+This is a visual diagnostic of the **six largest absolute differences** among the 52 players with two usable attempts in the filtered audit. Six primarily interior players were removed using [observed NFL alignments](../edge_pass_rush_cohort.md); these six disagreement examples remain the same. The sample was selected because of disagreement; it is not representative of all players. The plots compare each player's first two usable attempts chronologically. The original onset and gain rules are unchanged.
 
 Each plot shows the full tracked path relative to recording start, the scored path segment in orange, and the speed curves with the half-second scoring windows shaded. Path axes retain source coordinates; the paths are not rotated or mirrored. The speed units have not been independently confirmed. The plots do not show the drill cue, body orientation, coaching instructions, or video.
 

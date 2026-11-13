@@ -1,0 +1,19 @@
+Cohort: 60 players; 116 recorded Combine attempts
+Included Combine attempts: 111; players: 59
+Video-synchronized, pre-contact-validated attempts: 0 (see edge_video_validation.py)
+Excluded statuses: {'already_above_threshold': 4, 'usable': 1}
+Long recording review flags: 1
+Qualifying rookie EDGE passing plays: 6421; observed nonnegative get-off: 5660
+Comparison: 36 players; minimum 20 observed NFL snaps each
+Players by draft year: {2023: 14, 2024: 11, 2025: 11}
+                 feature  draft_year_adjusted  n_players  rank_correlation  ci_low  ci_high
+  combine_speed_gain_0_5                False         36            -0.048  -0.330    0.256
+  combine_speed_gain_0_5                 True         36             0.128  -0.191    0.429
+  combine_speed_gain_0_3                False         36             0.018  -0.268    0.323
+  combine_speed_gain_0_3                 True         36             0.226  -0.097    0.507
+    combine_speed_at_0_3                False         36             0.005  -0.278    0.298
+    combine_speed_at_0_3                 True         36             0.202  -0.146    0.494
+combine_displacement_0_3                False         36             0.034  -0.236    0.319
+combine_displacement_0_3                 True         36             0.257  -0.074    0.515
+Exploratory associations only. Onset/phase, units, and exact player_get_off definition require validation.
+No cue-aligned reaction time, contact annotation, causal effect, or predictive validation is established.

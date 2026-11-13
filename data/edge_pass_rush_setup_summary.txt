@@ -1,0 +1,23 @@
+All PLAYER PASS_RUSH_DRILL: 225 attempts, 118 players
+EDGE cohort after primary-interior exclusions: 116 attempts, 60 players
+Attempt counts per player: {1: 5, 2: 54, 3: 1}
+Multi-attempt players covering both directions: 55/55
+First two recorded attempts in opposite directions: 54/55
+Existing usable audit pairs in opposite directions: 51/52
+Ambiguous direction recordings: 0
+Irregular timestamp recordings: 0
+
+Direction counts:
+ draft_year  attempt  direction  n_attempts
+       2023        1 negative_y          23
+       2023        2 positive_y          18
+       2024        1 negative_y          17
+       2024        2 positive_y          17
+       2025        3 negative_y          19
+       2025        4 negative_y           2
+       2025        4 positive_y          18
+       2025        5 positive_y           2
+
+Recordings longer than 6 seconds (review lead-in):
+display_name  draft_year  attempt  duration_s  initial_speed
+ Tyrus Wheat        2023        2        10.2       0.186667
